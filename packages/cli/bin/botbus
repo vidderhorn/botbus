@@ -1,0 +1,7 @@
+#!/bin/bash
+BOTBUS_BIN=$(dirname $(readlink -f $BASH_SOURCE))
+ARG_DEVISOR=$BOTBUS_BIN/../node_modules/devisor/lib/devisor.js
+ARG_DOTENV=$BOTBUS_BIN/../node_modules/dotenv/config
+ARG_TSCONFIGPATHS=$BOTBUS_BIN/../node_modules/tsconfig-paths/register
+[ -f tsconfig.json ] && export TS_NODE_PROJECT=tsconfig.json
+node $ARG_DEVISOR '**/*.bot.ts' '**/*.bot.ls' '**/*.bot.js' -- -r $ARG_TSCONFIGPATHS -r $ARG_DOTENV

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "lib": ["ES2019"],
+    "target": "ES2019",
+    "strict": true,
+    "skipLibCheck": true,
+    "noImplicitReturns": true,
+    "sourceMap": true,
+    "declaration": true,
+    "baseUrl": ".",
+    "paths": {
+      "@botbus/bus": ["packages/bus/src/bus"],
+      "@botbus/rpc": ["packages/rpc/src/rpc"],
+      "@botbus/service": ["packages/service/src/service"],
+      "@botbus/event": ["packages/event/src/event"],
+      "@botbus/chat": ["packages/chat/src/chat"],
+      "@botbus/mem": ["packages/mem/src/mem"],
+      "@botbus/format": ["packages/format/src/format"],
+      "@botbus/format-irc": ["packages/format-irc/src/formatIrc"],
+      "@botbus/sendqueue": ["packages/sendqueue/src/sendQueue"],
+      "@botbus/irc": ["packages/irc/src/irc"],
+      "@botbus/irccloud": ["packages/irccloud/src/ircCloud"],
+      "@botbus/discord": ["packages/discord/src/discord"],
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@botbus/irc",
+  "main": "lib/irc.js",
+  "dependencies": {
+    "@botbus/bus": "^1.0.0",
+    "@botbus/chat": "^1.0.0",
+    "@botbus/format": "^1.0.0",
+    "@botbus/format-irc": "^1.0.0",
+    "@botbus/sendqueue": "^1.0.0",
+    "irc-framework": "^4.9.0"
+  },
+  "scripts": {
+    "build": "tsc --paths null",
+    "clean": "rm -rf lib"
+  }
+}

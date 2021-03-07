@@ -1,0 +1,12 @@
+{
+  "name": "@botbus/format",
+  "version": "1.0.0",
+  "main": "lib/format.js",
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  },
+  "scripts": {
+    "build": "tsc --paths null",
+    "clean": "rm -rf lib"
+  }
+}

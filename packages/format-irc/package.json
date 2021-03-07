@@ -1,0 +1,13 @@
+{
+  "name": "@botbus/format-irc",
+  "version": "1.0.0",
+  "main": "lib/formatIrc.js",
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "@botbus/format": "^1.0.0"
+  },
+  "scripts": {
+    "build": "tsc --paths null",
+    "clean": "rm -rf lib"
+  }
+}

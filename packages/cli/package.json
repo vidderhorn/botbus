@@ -1,0 +1,10 @@
+{
+  "name": "@botbus/cli",
+  "bin": "bin/botbus",
+  "version": "1.0.0",
+  "dependencies": {
+    "devisor": "1.0.0",
+    "dotenv": "^8.2.0",
+    "tsconfig-paths": "^3.9.0"
+  }
+}
