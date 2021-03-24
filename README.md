@@ -18,4 +18,6 @@
 
 ## TODO
 
-- allow args to botbus cli, need typescript-is
+- ~~allow args to botbus cli, need typescript-is~~
+- scrap cli, put in pris/etc
+

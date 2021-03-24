@@ -1,5 +1,5 @@
 {
-  "name": "@soctech/chat",
+  "name": "@botbus/monorepo",
   "devDependencies": {
     "lerna": "^3.22.1"
   }
