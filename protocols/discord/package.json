@@ -1,11 +1,13 @@
 {
   "name": "@botbus/discord",
+  "version": "1.0.0",
+  "private": true,
   "main": "lib/discord.js",
   "dependencies": {
-    "@botbus/bus": "1.0.0",
-    "@botbus/chat": "1.0.0",
-    "@botbus/sendqueue": "1.0.0",
-    "@botbus/format": "1.0.0",
+    "@botbus/bus": "^1.0.0",
+    "@botbus/chat": "^1.0.0",
+    "@botbus/format": "^1.0.0",
+    "@botbus/sendqueue": "^1.0.0",
     "discord.js": "^12.4.1"
   },
   "scripts": {

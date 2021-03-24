@@ -1,12 +1,14 @@
 {
   "name": "@botbus/irccloud",
   "main": "lib/ircCloud.js",
+  "version": "1.0.0",
+  "private": true,
   "dependencies": {
     "@botbus/bus": "^1.0.0",
     "@botbus/chat": "^1.0.0",
-    "@botbus/sendqueue": "^1.0.0",
     "@botbus/format": "^1.0.0",
     "@botbus/format-irc": "^1.0.0",
+    "@botbus/sendqueue": "^1.0.0",
     "irccloud": "^1.2.0"
   },
   "scripts": {

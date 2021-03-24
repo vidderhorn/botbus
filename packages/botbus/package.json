@@ -8,12 +8,12 @@
   },
   "dependencies": {
     "@botbus/bus": "^1.0.0",
-    "@botbus/rpc": "^1.0.0",
-    "@botbus/service": "^1.0.0",
-    "@botbus/event": "^1.0.0",
     "@botbus/chat": "^1.0.0",
+    "@botbus/event": "^1.0.0",
+    "@botbus/format": "^1.0.0",
     "@botbus/mem": "^1.0.0",
-    "@botbus/format": "^1.0.0"
+    "@botbus/rpc": "^1.0.0",
+    "@botbus/service": "^1.0.0"
   },
   "scripts": {
     "build": "tsc --paths null",

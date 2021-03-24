@@ -1,6 +1,8 @@
 {
   "name": "@botbus/irc",
   "main": "lib/irc.js",
+  "version": "1.0.0",
+  "private": true,
   "dependencies": {
     "@botbus/bus": "^1.0.0",
     "@botbus/chat": "^1.0.0",
