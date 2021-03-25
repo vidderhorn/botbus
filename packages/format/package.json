@@ -1,6 +1,6 @@
 {
   "name": "@botbus/format",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/format.js",
   "license": "Apache-2.0",
   "description": "Botbus Text Formatting",

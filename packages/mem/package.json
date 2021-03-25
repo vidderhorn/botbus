@@ -1,6 +1,6 @@
 {
   "name": "@botbus/mem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/mem.js",
   "license": "Apache-2.0",
   "description": "Botbus Redis Memory",

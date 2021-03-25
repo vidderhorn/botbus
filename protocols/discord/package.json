@@ -1,6 +1,6 @@
 {
   "name": "@botbus/discord",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/discord.js",
   "license": "Apache-2.0",
   "description": "Botbus Discord Connection",
@@ -12,10 +12,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@botbus/bus": "^1.0.0",
-    "@botbus/chat": "^1.0.0",
-    "@botbus/format": "^1.0.0",
-    "@botbus/sendqueue": "^1.0.0",
+    "@botbus/bus": "^1.0.1",
+    "@botbus/chat": "^1.0.1",
+    "@botbus/format": "^1.0.1",
+    "@botbus/sendqueue": "^1.0.1",
     "discord.js": "^12.4.1"
   },
   "scripts": {

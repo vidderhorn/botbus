@@ -1,7 +1,7 @@
 {
   "name": "@botbus/irc",
   "main": "lib/irc.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "Apache-2.0",
   "description": "Botbus IRC Connection",
   "repository": {
@@ -12,11 +12,11 @@
     "access": "public"
   },
   "dependencies": {
-    "@botbus/bus": "^1.0.0",
-    "@botbus/chat": "^1.0.0",
-    "@botbus/format": "^1.0.0",
-    "@botbus/format-irc": "^1.0.0",
-    "@botbus/sendqueue": "^1.0.0",
+    "@botbus/bus": "^1.0.1",
+    "@botbus/chat": "^1.0.1",
+    "@botbus/format": "^1.0.1",
+    "@botbus/format-irc": "^1.0.1",
+    "@botbus/sendqueue": "^1.0.1",
     "irc-framework": "^4.9.0"
   },
   "scripts": {
