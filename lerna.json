@@ -4,8 +4,6 @@
     "packages/*",
     "protocols/*",
     "services/*",
-    "triggers/*",
-    "../devisor/devisor",
-    "../ezop"
+    "triggers/*"
   ]
 }

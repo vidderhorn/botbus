@@ -2,6 +2,15 @@
   "name": "@botbus/sendqueue",
   "version": "1.0.0",
   "main": "lib/sendQueue.js",
+  "license": "Apache-2.0",
+  "description": "Botbus Throttled Queue",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/vidderhorn/botbus.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "typescript": "^4.1.2"
   },

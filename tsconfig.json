@@ -20,9 +20,9 @@
       "@botbus/format": ["packages/format/src/format"],
       "@botbus/format-irc": ["packages/format-irc/src/formatIrc"],
       "@botbus/sendqueue": ["packages/sendqueue/src/sendQueue"],
-      "@botbus/irc": ["packages/irc/src/irc"],
-      "@botbus/irccloud": ["packages/irccloud/src/ircCloud"],
-      "@botbus/discord": ["packages/discord/src/discord"],
+      "@botbus/irc": ["protocols/irc/src/irc"],
+      "@botbus/irccloud": ["protocols/irccloud/src/ircCloud"],
+      "@botbus/discord": ["protocols/discord/src/discord"],
     }
   }
 }

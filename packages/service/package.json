@@ -2,6 +2,15 @@
   "name": "@botbus/service",
   "version": "1.0.0",
   "main": "lib/service.js",
+  "license": "Apache-2.0",
+  "description": "Botbus Typed Services",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/vidderhorn/botbus.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@types/node": "^14.14.9",
     "ts-node": "^9.0.0",

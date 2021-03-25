@@ -2,7 +2,15 @@
   "name": "@botbus/irc",
   "main": "lib/irc.js",
   "version": "1.0.0",
-  "private": true,
+  "license": "Apache-2.0",
+  "description": "Botbus IRC Connection",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/vidderhorn/botbus.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@botbus/bus": "^1.0.0",
     "@botbus/chat": "^1.0.0",

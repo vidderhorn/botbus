@@ -2,6 +2,15 @@
   "name": "@botbus/rpc",
   "version": "1.0.0",
   "main": "lib/rpc.js",
+  "license": "Apache-2.0",
+  "description": "Botbus Remote Procedure Call",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/vidderhorn/botbus.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@types/node": "^14.14.9",
     "@types/uuid": "^8.3.0",
