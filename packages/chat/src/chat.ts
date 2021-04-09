@@ -4,7 +4,8 @@ import { compose, Middleware } from "@botbus/event";
 export type ChatEvent =
 | MessageEvent
 | JoinEvent
-| PartEvent;
+| PartEvent
+| QuitEvent;
 
 export module Chat {
   export function on<E extends ChatEvent>(event: E["signal"]) {
